@@ -1,13 +1,10 @@
 # Even or Odd - A Simple Go Project
 
-This is a simple Go project that implements a deck of even or odd with basic functionalities.
+This is a simple Go project that implements a basic approach to seeing if a number is even or odd.
 
 ## Features
 
-- Create and shuffle a deck of even or odd.
-- Draw even or odd from the deck.
-- Save and load decks from files.
-- Includes unit tests for deck operations.
+- Determine if each number is even or odd.
 
 ## Installation
 
@@ -34,8 +31,8 @@ This will execute the `main.go` file and start the application.
 ## Project Structure
 
 ```
-├── deck.go          # Deck logic implementation
-├── deck_test.go     # Unit tests for deck functions
+├── numbers.go       # numbers logic implementation
+├── numbers_test.go  # Unit tests for numbers functions
 ├── main.go          # Entry point for the application
 ├── go.mod           # Go module file
 ├── LICENSE          # License information
@@ -47,10 +44,7 @@ This will execute the `main.go` file and start the application.
 
 You can use this project to:
 
-- Generate a new deck of even or odd.
-- Shuffle the deck.
-- Draw specific numbers of even or odd.
-- Save and load decks from a file.
+- Determine if each number is even or odd.
 
 ## Running Tests
 
